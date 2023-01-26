@@ -1,0 +1,33 @@
+{
+  "name": "brke-cms",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/strapi": "4.5.6",
+    "@strapi/plugin-users-permissions": "4.5.6",
+    "@strapi/plugin-i18n": "4.5.6",
+    "mysql": "2.18.1"
+  },
+  "resolutions": {
+    "sharp": "0.27.2"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "96088d40-a2fd-4936-9be7-c3989dd98da6"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
